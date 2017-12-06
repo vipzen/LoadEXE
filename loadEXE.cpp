@@ -37,6 +37,7 @@
 #include <stdio.h>
 #include <windows.h>
 #include <tlhelp32.h>
+#include "Shlwapi.h"
 #include <psapi.h>
 
 struct PE_Header 
@@ -449,9 +450,9 @@ BOOL createChild(PPROCESS_INFORMATION pi, PCONTEXT ctx, PROCINFO *outChildProcIn
     char* FullCommand = new char[256];
 
     printf("\nTarget EXE = %s\n", __argv[1]);
-   	FILE *TargetEXE = fopen(__argv[1], "rb");
+   	FILE *FILETargetEXE = fopen_s(__argv[1], "rb");
 
-    if(TargetEXE == NULL)
+    if (PathIsRelative(__argv[1]) == FALSE && FILETargetEXE == NULL)
 	{
 	perror("Error");
 	exit(1);
