@@ -450,7 +450,7 @@ BOOL createChild(PPROCESS_INFORMATION pi, PCONTEXT ctx, PROCINFO *outChildProcIn
     char* FullCommand = new char[256];
 
     printf("\nTarget EXE = %s\n", __argv[1]);
-   	FILE *FILETargetEXE = fopen_s(__argv[1], "rb");
+   	FILE *FILETargetEXE = fopen(__argv[1], "rb");
 
     if (PathIsRelative(__argv[1]) == FALSE && FILETargetEXE == NULL)
 	{
