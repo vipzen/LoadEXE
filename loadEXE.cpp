@@ -449,8 +449,16 @@ BOOL createChild(PPROCESS_INFORMATION pi, PCONTEXT ctx, PROCINFO *outChildProcIn
     char* FullCommand = new char[256];
 
     printf("\nTarget EXE = %s\n", __argv[1]);
+   	FILE *TargetEXE = fopen(__argv[1], "rb");
+
+    if(TargetEXE == NULL)
+	{
+	perror("Error");
+	exit(1);
+    }
+    
   	printf("Our exe = %s\n", __argv[2]);
-  	
+
 	if(__argc > 3)
 	{
   	
