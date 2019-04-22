@@ -1,16 +1,8 @@
-Fluent Python: example code
+Midri Ciber-Segurança e Privacidade Online
 ===========================
 
-``Sphinx-Gallery`` is a `MIDRI <https://midri.com.br/>`_ extension that builds an HTML
+Visite a `MIDRI <https://midri.com.br/>`_ extension that builds an HTML
 
-   **BEWARE**: This is a work in progress, like the book itself.
-
-* Code here may change and disappear without warning. 
-
-* If a piece of code is not yet in the ebook, it's likely to be broken.
-
-* A major reorganization may happen when the last chapter is done. 
-
-* No promises. No guarantees. Use at own risk.
+A MIDRI tem como pilar fundamental o entendimento de que somente com o verdadeiro conhecimento de como hackers adversários operam, as organizações serão capazes de se defender contra os efeitos devastadores das vulnerabilidade e ataques modernos.
 
 .. _Midri: https://midri.com.br 
