@@ -3,4 +3,5 @@ Read the Docs MIDRI Segurança da Informação e Privacidade online
 ***********************************
 
 
-.. _MIDRI: httpS://midri.com.br
+* Visite `MIDRI <https://midri.com.br>`_
+
