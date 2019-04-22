@@ -1,7 +1,7 @@
 Fluent Python: example code
 ===========================
 
-Example code for the book `Fluent Python`_ by Luciano Ramalho (O'Reilly, 2014).
+``Sphinx-Gallery`` is a `MIDRI <https://midri.com.br/>`_ extension that builds an HTML
 
    **BEWARE**: This is a work in progress, like the book itself.
 
